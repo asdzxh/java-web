@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="request-learning:war">
+    <output-path>$PROJECT_DIR$/request-learning/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>request-learning</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="request-learning-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="request-learning:war exploded" />
+    </root>
+  </artifact>
+</component>
