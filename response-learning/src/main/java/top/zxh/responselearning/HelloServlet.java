@@ -1,4 +1,4 @@
-package top.zxh.servletlearning;
+package top.zxh.responselearning;
 
 import java.io.*;
 import javax.servlet.http.*;
