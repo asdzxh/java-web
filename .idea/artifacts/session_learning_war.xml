@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="session-learning:war">
+    <output-path>$PROJECT_DIR$/session-learning/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>session-learning</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="session-learning-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="session-learning:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -10,9 +10,9 @@
     </parent>
 
 
-    <artifactId>servlet-learning</artifactId>
+    <artifactId>ajax-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>servlet-learning</name>
+    <name>ajax-learning</name>
     <packaging>war</packaging>
 
     <properties>

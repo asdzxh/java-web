@@ -10,9 +10,9 @@
     </parent>
 
 
-    <artifactId>servlet-learning</artifactId>
+    <artifactId>session-learning</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>servlet-learning</name>
+    <name>session-learning</name>
     <packaging>war</packaging>
 
     <properties>
@@ -21,7 +21,6 @@
         <maven.compiler.source>17</maven.compiler.source>
         <junit.version>5.8.2</junit.version>
     </properties>
-
 
 
     <build>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="response-learning:war exploded" />
+      <artifact name="ajax-learning:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,27 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a3fbef0-6921-4671-8d85-d65b42de38c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/DownLoadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ForwardServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ResponseDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ResponseDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/response_learning_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/response_learning_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_learning_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_learning_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/session_learning_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/session_learning_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/response-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/servlet/DownloadServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/servlet/ResponseDemo1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/servlet/ResponseDemo2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/servlet/ResponseDemo3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/servlet/ResponseDemo4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/servlet/one.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/com/util/DownLoadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/util/DownLoadUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/response-learning/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/response-learning/src/main/webapp/download.html" beforeDir="false" afterPath="$PROJECT_DIR$/response-learning/src/main/webapp/download.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/util/JdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/util/JdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/request-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session-learning/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/session-learning/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +43,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/session-learning" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -75,21 +78,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/JAVA/Project/java-web/java-webl-earning&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "G:/JAVA/Project/java-web/java-webl-earning",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\JAVA\Project\java-web\java-web-learning\response-learning\src\main\webapp" />
@@ -107,92 +111,23 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="response-learning:war exploded">
+        <artifact name="java-web-learning:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/java_web_learning_Web_exploded" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="1f7d582d-f95f-42c1-a312-6908cfa97d55" />
-        <option name="HTTP_PORT" value="9092" />
-      </server-settings>
+      <server-settings />
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2516" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="servlet-learning:war exploded" />
+          <artifact name="java-web-learning:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -211,6 +146,7 @@
       <workItem from="1676640697242" duration="1179000" />
       <workItem from="1676644882212" duration="3762000" />
       <workItem from="1676684231346" duration="3196000" />
+      <workItem from="1676699192996" duration="2680000" />
     </task>
     <servers />
   </component>
