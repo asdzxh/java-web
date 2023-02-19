@@ -16,6 +16,7 @@
         <module>response-learning</module>
         <module>ajax-learning</module>
         <module>session-learning</module>
+        <module>book-online</module>
     </modules>
 
     <properties>

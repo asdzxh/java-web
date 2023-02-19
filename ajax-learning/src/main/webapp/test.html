@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>二级联动菜单</title>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+
+</head>
+<body>
+<select id="lv1" style="width: 200px;height: 40px;">
+    <option value="-1" selected="selected">请选择</option>
+</select>
+<select id="lv2" style="width: 200px;height: 40px;">
+    <option selected="selected"></option>
+</select>
+
+
+</body>
+<script>
+    var lv1 = document.getElementById("lv1")
+    axios.get("http://localhost:9095/web/b?level=1").then(function (response) {
+        var data = response.data;
+        console.log(data);
+        for (var i = 0; i < data.length; i++) {
+            var channel = data[i];
+            lv1.options.add(new Option(channel.name, channel.code));
+        }
+    });
+    var lv2 = document.getElementById("lv2");
+    lv1.onchange = function () {
+        axios.get("/web/b", {params: {"level": 2, "parent": lv1.value}}).then(function (response) {
+            var data = response.data;
+            console.log(data);
+            for (var i = 0; i < data.length; i++) {
+                var channel = data[i];
+                lv2.options.add(new Option(channel.name, channel.code));
+            }
+        });
+    }
+</script>
+</html>
