@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ajax-learning:war exploded" />
+      <artifact name="book-online:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,22 +10,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a3fbef0-6921-4671-8d85-d65b42de38c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/servlet/AA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/servlet/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ajax_learning_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ajax_learning_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/BookDetailServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/LoginPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/UserPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/util/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/util/jdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/resources/durid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/book_detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/img/search.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-online/src/test/java/top/zxh/web/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax-learning/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/request-learning/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session-learning/src/main/java/top/zxh/sessionlearning/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/session-learning/src/main/java/top/zxh/web/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +57,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -70,56 +94,103 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "G:/JAVA/Project/java project",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "spring.configuration.checksum": "7b9e811b016010f2180d4dea0f404655"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/JAVA/Project/java-web/java-web-learning&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7b9e811b016010f2180d4dea0f404655&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\webapp" />
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\java\top\zxh\web" />
       <recent name="G:\JAVA\Project\java-web\java-web-learning\response-learning\src\main\webapp" />
       <recent name="G:\JAVA\Project\java-web\java-web-learning\response-learning\src\main\java\top\zxh\web" />
       <recent name="G:\JAVA\Project\java-web\java-web-learning\servlet-learning\src\main\java\top\zxh\web" />
-      <recent name="G:\JAVA\Project\java-web\java-web-learning\servlet-learning\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\JAVA\Project\java-web\java-web-learning\ajax-learning\src\main\webapp" />
-      <recent name="G:\JAVA\Project\java-web\java-web-learning\ajax-learning\src\main\java\top\zxh\web\servlet" />
-      <recent name="G:\JAVA\Project\java-web\java-web-learning\servlet-learning\src\main\webapp" />
-      <recent name="G:\JAVA\Project\java-web\java-web-learning" />
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\webapp\css" />
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\webapp\img" />
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\webapp" />
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\java\top\zxh\web\util" />
+      <recent name="G:\JAVA\Project\java-web\java-web-learning\book-online\src\main\java\top\zxh\web\service\impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="top.zxh.web.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="top.zxh.web.util" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.69">
+    <configuration name="UserDaoTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.zxh.web.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.zxh.web.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.zxh.web.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.findUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="book-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.zxh.web.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.zxh.web.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.zxh.web.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="findUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="false">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="ajax-learning:war exploded">
+        <artifact name="book-online:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/web" />
+            <option name="CONTEXT_PATH" value="/book_online_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="a59498ad-7328-411e-841e-3c0cf6233e04" />
-        <option name="HTTP_PORT" value="9095" />
-        <option name="JNDI_PORT" value="1101" />
+        <option name="HTTP_PORT" value="9096" />
+        <option name="JNDI_PORT" value="1102" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -196,6 +267,12 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDaoTest.addUser" />
+        <item itemvalue="JUnit.UserDaoTest.findUser" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -217,6 +294,14 @@
       <workItem from="1676727634484" duration="648000" />
       <workItem from="1676728469865" duration="531000" />
       <workItem from="1676732676302" duration="184000" />
+      <workItem from="1676780899945" duration="1833000" />
+      <workItem from="1676783073683" duration="301000" />
+      <workItem from="1676783532235" duration="2528000" />
+      <workItem from="1676786665974" duration="480000" />
+      <workItem from="1676795886228" duration="29000" />
+      <workItem from="1677374893469" duration="2702000" />
+      <workItem from="1677377958057" duration="3260000" />
+      <workItem from="1677382574798" duration="544000" />
     </task>
     <servers />
   </component>
