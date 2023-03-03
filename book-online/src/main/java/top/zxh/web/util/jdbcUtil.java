@@ -36,7 +36,6 @@ public class jdbcUtil {
 
     private jdbcUtil() {
         System.out.println("执行构造方法");
-
     }
 
     public static jdbcUtil getJdbcUtilInstance() {

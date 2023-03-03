@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="book-online:war exploded" />
+      <artifact name="request-learning:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,44 +10,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a3fbef0-6921-4671-8d85-d65b42de38c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/BookDetailServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/IndexServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/LoginPageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/controller/UserPageServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/impl/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/impl/BookServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/util/Md5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/util/jdbcUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/resources/durid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/404.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/book_detail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/img/search.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/top.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/main/webapp/user.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-online/src/test/java/top/zxh/web/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/book_online_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/ajax/entity/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/ajax/entity/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/ajax/servlet/ChannelServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/java/top/zxh/web/ajax/servlet/NewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/channel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTes10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/java/top/zxh/requestlearning/servlet/RequestTest09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/webapp/request04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request-learning/src/main/webapp/request06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ResponseDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ServletContext2/MsgTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ServletContext2/ServletContextDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ServletContextDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ServletContextDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/ServletContextDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/java/top/zxh/web/servlet/responsedemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/resources/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/webapp/WEB-INF/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response-learning/src/main/webapp/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/servlet/ServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/servlet-learning/src/main/webapp/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c453f11b-8199-4b17-a3e7-ef99aaa2255a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c453f11b-8199-4b17-a3e7-ef99aaa2255a.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-learning/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax-learning/src/main/webapp/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/ajax-learning/src/main/webapp/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/util/jdbcUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/book-online/src/main/java/top/zxh/web/util/jdbcUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_learning_Web_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_learning_Web_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_web_learning_Web_exploded/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/request-learning/src/main/webapp/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/dao/impl/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/java/top/zxh/web/com/util/JdbcUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/servlet-learning/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/request-learning/src/main/webapp/request05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/servlet-learning/src/main/webapp/login.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +68,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,12 +115,12 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/JAVA/Project/java-web/java-web-learning&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/JAVA/Project/java project&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;7b9e811b016010f2180d4dea0f404655&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -144,6 +155,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.69">
+    <configuration name="JSONTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.zxh.web.servlet.JSONTest" />
+      <module name="ajax-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.zxh.web.ajax.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDaoTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="book-online" />
       <extension name="coverage">
@@ -176,21 +200,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="book-online:war exploded">
+        <artifact name="request-learning:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/book_online_war_exploded" />
+            <option name="CONTEXT_PATH" value="/request_learning_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a59498ad-7328-411e-841e-3c0cf6233e04" />
-        <option name="HTTP_PORT" value="9096" />
-        <option name="JNDI_PORT" value="1102" />
+        <option name="BASE_DIRECTORY_NAME" value="48d9cf71-e96d-4a2c-ad9e-fe56daea5ad9" />
+        <option name="HTTP_PORT" value="9091" />
+        <option name="JNDI_PORT" value="1112" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -198,7 +222,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8320" />
+        <option name="DEBUG_PORT" value="2971" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -263,12 +287,19 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="java-web-learning:Web exploded" />
+          <artifact name="request-learning:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.JSONTest" />
+      <item itemvalue="JUnit.UserDaoTest.addUser" />
+      <item itemvalue="JUnit.UserDaoTest.findUser" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.69" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JSONTest" />
         <item itemvalue="JUnit.UserDaoTest.addUser" />
         <item itemvalue="JUnit.UserDaoTest.findUser" />
       </list>
@@ -301,7 +332,16 @@
       <workItem from="1676795886228" duration="29000" />
       <workItem from="1677374893469" duration="2702000" />
       <workItem from="1677377958057" duration="3260000" />
-      <workItem from="1677382574798" duration="544000" />
+      <workItem from="1677382574798" duration="3947000" />
+      <workItem from="1677400082350" duration="11254000" />
+      <workItem from="1677462574719" duration="1340000" />
+      <workItem from="1677501216290" duration="3479000" />
+      <workItem from="1677541633467" duration="618000" />
+      <workItem from="1677567787822" duration="7707000" />
+      <workItem from="1677594217886" duration="2327000" />
+      <workItem from="1677597317823" duration="1442000" />
+      <workItem from="1677747556708" duration="9109000" />
+      <workItem from="1677803284315" duration="587000" />
     </task>
     <servers />
   </component>

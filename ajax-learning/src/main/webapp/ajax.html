@@ -6,13 +6,13 @@
 </head>
 <body>
 <h1>三秒后返回服务器端的数据</h1>
-<h2 id="info"></h2>
+<h1 id="info"></h1>
 <script>
   // 3秒后执行load()函数，发起AJAX 请求
   setTimeout("load()", 3000);
   function load() {
     // 1. 创建核心对象
-    let xHttp;
+    let xHttp ;
     if (window.XMLHttpRequest) {
       xHttp = new XMLHttpRequest();
     } else {
@@ -20,7 +20,7 @@
       xHttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
     // 2. 发送请求
-    xHttp.open("GET", "http://localhost:9094/ajax");
+    xHttp.open("GET", "http://localhost:9096/ajax");
     xHttp.send();
 
     // 3. 获取响应
