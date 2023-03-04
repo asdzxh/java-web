@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="text@localhost">
+<dataSource name="exercise@localhost">
   <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.43">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
@@ -1020,7 +1020,6 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="297" parent="1" name="text">
-      <Current>1</Current>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="298" parent="1" name="world">
@@ -1032,123 +1031,59 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="300" parent="1" name="职工社团">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <user id="301" parent="1" name="mysql.infoschema">
+    <schema id="301" parent="1" name="exercise">
+      <Current>1</Current>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="302" parent="1" name="oa">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <user id="303" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="302" parent="1" name="mysql.session">
+    <user id="304" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="303" parent="1" name="mysql.sys">
+    <user id="305" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="304" parent="1" name="root">
+    <user id="306" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="305" parent="297" name="t_book">
-      <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="306" parent="297" name="t_user">
+    <table id="307" parent="301" name="ex_user">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="307" parent="305" name="id">
-      <AutoIncrement>11</AutoIncrement>
-      <Comment>主键</Comment>
+    <column id="308" parent="307" name="id">
+      <AutoIncrement>1</AutoIncrement>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="308" parent="305" name="name">
-      <Comment>书名</Comment>
+    <column id="309" parent="307" name="username">
       <DataType>varchar(255)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="309" parent="305" name="cover">
-      <Comment>封面图</Comment>
-      <DataType>varchar(500)|0s</DataType>
+    <column id="310" parent="307" name="password">
+      <DataType>varchar(255)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="310" parent="305" name="author">
-      <Comment>作者</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <index id="311" parent="305" name="PRIMARY">
+    <index id="311" parent="307" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="312" parent="305" name="PRIMARY">
+    <key id="312" parent="307" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="313" parent="306" name="id">
-      <AutoIncrement>7</AutoIncrement>
-      <Comment>主键</Comment>
-      <DataType>int|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="314" parent="306" name="account">
-      <Comment>账号</Comment>
-      <DataType>varchar(200)|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>2</Position>
-    </column>
-    <column id="315" parent="306" name="password">
-      <Comment>密码</Comment>
-      <DataType>varchar(32)|0s</DataType>
-      <NotNull>1</NotNull>
-      <Position>3</Position>
-    </column>
-    <column id="316" parent="306" name="nickname">
-      <Comment>昵称</Comment>
-      <DataType>varchar(32)|0s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="317" parent="306" name="avatar">
-      <Comment>头像</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>5</Position>
-    </column>
-    <column id="318" parent="306" name="address">
-      <Comment>地址</Comment>
-      <DataType>varchar(255)|0s</DataType>
-      <Position>6</Position>
-    </column>
-    <column id="319" parent="306" name="create_time">
-      <Comment>创建时间</Comment>
-      <DataType>datetime|0s</DataType>
-      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
-      <OnUpdate>CURRENT_TIMESTAMP</OnUpdate>
-      <Position>7</Position>
-    </column>
-    <index id="320" parent="306" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="321" parent="306" name="username">
-      <ColNames>account</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="322" parent="306" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <key id="323" parent="306" name="username">
-      <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

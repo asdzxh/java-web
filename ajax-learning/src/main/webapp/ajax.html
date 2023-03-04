@@ -20,13 +20,14 @@
       xHttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
     // 2. 发送请求
-    xHttp.open("GET", "http://localhost:9096/ajax");
+    xHttp.open("GET", "http://localhost:9091/ajax");
     xHttp.send();
 
     // 3. 获取响应
     xHttp.onreadystatechange = function () {
       if (this.readyState === 4 && this.status === 200) {
         // alert(this.responseText);
+          // 进入回调函数，通过 this.responseText 可以获取到服务端响应的数据
         document.getElementById("info").innerHTML = this.responseText
       }
     }

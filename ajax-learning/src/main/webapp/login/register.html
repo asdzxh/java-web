@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+  <style>
+
+    #form{
+      width: 500px;
+      height: 200px;
+      margin: auto;
+      text-align: center;
+    }
+    p{
+      font-size: 25px;
+    }
+  </style>
+</head>
+<body>
+<form action="/register" id="form">
+  <h1 id="loginMsg">Register</h1>
+  <p><label for="username">Username:</label><input id="username" name="username" type="text" ></p>
+  <span id="tip"></span>
+  <p><label for="password">Password:</label><input id="password" name="password" type="password"></p>
+  <div id="subDiv">
+    <input type="submit" class="button" value="register">
+    <input type="reset" class="button" value="reset">
+  </div>
+</form>
+
+<script>
+  document.getElementById("username").onblur = function () {
+    // 取到 username 文本框 的值。 给谁绑定的事件，this就代表谁
+    const username = this.value;
+    // 取到显示提示信息的span标签
+    const tip = document.getElementById("tip");
+    // 设置为行内显示（成功与否，都要提示）
+    tip.style.display = 'inline';
+    // 发起XHR请求
+    let xHttp;
+    if (window.XMLHttpRequest) {
+      xHttp = new XMLHttpRequest();
+    } else {
+      xHttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xHttp.open("GET", "http://localhost:9091/check?username=" + username);
+    xHttp.send();
+
+    xHttp.onreadystatechange = function () {
+      if (this.readyState === 4 && this.status === 200) {
+        //判断返回结果
+        if (this.responseText === "true") {
+          //用户名已存在
+          tip.innerHTML = '用户名已存在';
+          tip.style.color = 'red';
+
+        } else {
+          //用户名不存在
+          tip.innerHTML = '用户名可用';
+          tip.style.color = 'green';
+        }
+      }
+    };
+  };
+
+</script>
+
+
+</body>
+</html>

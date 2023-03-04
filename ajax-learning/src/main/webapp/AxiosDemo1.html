@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Axios练习</title>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+</head>
+<body>
+<script>
+    //1. get
+   /* axios({
+         method:"get",
+         url:"http://localhost:9091/axiosDemo1?username=zhangsan"
+     }).then(function (resp) {
+         console.log(resp.data)
+         alert(resp.data);
+     })
+*/
+    //2. post  在js中{} 表示一个js对象，而这个js对象中有三个属性
+    // axios({
+    //     method:"post",
+    //     url:"http://localhost:9091/axiosDemo1",
+    //     data:"username=zhangsan"
+    // }).then(function (resp) {
+    //     alert(resp.data);
+    // })
+    axios({
+        method:"post",
+        url:"http://localhost:9091/axiosDemo1",
+        data:"username=zhangsan"
+    }).then(function (resp){
+        alert(resp.data);
+    })
+    /**
+     * 请求方式的别名
+     */
+    /*
+            axios.get("http://localhost:8080/axiosServlet?username=zhangsan").then(function (resp) {
+            alert(resp.data);
+        });
+
+
+        axios.post("http://localhost:8080/axiosServlet","username=zhangsan").then(function (resp) {
+        alert(resp.data);
+    });
+     */
+</script>
+
+
+</body>
+</html>
