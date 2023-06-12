@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Axios练习2</title>
+  <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+
+</head>
+<body>
+
+<script>
+  const obj = {
+    name:"张三"
+  };
+
+  axios({
+    method:"post",
+    url:"http://localhost:9091/axiosDemo1",
+    data: obj //这里 axios 会将该js对象转换为 json 对象
+  }).then(function (resp) {
+    alert(resp.data);
+  })
+
+</script>
+</body>
+</html>
